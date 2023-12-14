@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="basicform.css">
+</head>
+<body>
+     <form action="#">
+         <section class="intro">
+             <h1>STUDENT REGISTRATION FORM</h1>
+             </section> 
+        <div class="form-input">
+            <label>enter your name</label>
+            <input type="text" name="userName" size="36" maxlength="36" placeholder="user name"required><br/><br/>
+            <span>!</span>
+            <p class="warning"> name can not be empty</p>
+            </div> 
+             
+            <div class="form-input">
+            <label>enter your company</label>
+            <input type="text" name="company" size="36" maxlength="36" placeholder="company"required><br/><br/>
+            <span>!</span>
+            <p class="warning">company name can not be empty</p>
+             </div>
+
+             <div class="form-input">
+            <label>enter your department</label>
+            <input type="text" name="dept" size="36" maxlength="36" placeholder="department"required><br/><br/>
+            <span>!</span>
+            <p class="warning">department name can not be empty</p>
+            </div>
+
+            <div class="form-input">
+            <label> about yourself </label>
+            <textarea name="description" rows="10" cols="30"></textarea><br/>
+            <span>!</span>
+            <p class="warning">description can not be empty</p>
+            <br/>
+            </div>
+
+            <div class="form-input">
+            <label>gender</label><br/>
+            <input type="radio" name="gender" value="1"> male <br/>
+            <input type="radio" name="gender" value="1"> female <br/>
+            <span>!</span>
+            <p class="warning">gender can not be empty</p>
+            </div> 
+            <div class="form-input">
+            <p>
+                <label>select your favorite subject</label><br/>
+                <input type="checkbox" name="books"> books <br/>
+                <input type="checkbox" name="web"> web development <br/>
+                <input type="checkbox" name="pf"> programming fundamentals <br/>
+                <input type="checkbox" name="oop"> object oriented programming <br/>
+                <input type="checkbox" name="CN"> computer networks <br/>
+                <span>!</span>
+                <p class="warning">favorite subject can not be empty</p>
+                
+            </p>
+            </div>
+            <div class="form-input">
+            <label>select your city</label>
+            <select name="city">
+                <option value="1" selected="true">islamabad</option>
+                <option value="2">rawalpindi</option>
+                <option value="3">lahore</option>
+                <option value="4">karachi</option>
+            </select>
+            <br/> <br/>
+            <span>!</span>
+            <p class="warning">city can not be empty</p>
+            </div> 
+            <div class="form-input">
+             <input type="submit-btn" value="submit">
+             </div>
+        </div>
+    </form>
+</body>
+</html>s
